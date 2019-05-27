@@ -1,0 +1,43 @@
+import turtle as t
+
+def quad (x):
+        t.fd (x)
+        t.left (90)
+        t.fd (x)
+        t.left (90)
+        t.fd (x)
+        t.left (90)
+        t.fd (x)
+        t.right (90)
+        t.fd (x)
+        t.right (90)
+        t.fd (x)
+        t.right (90)
+        t.fd (x)
+
+quad (100)
+
+def ret (y):
+    t.left (180)
+    t.fd (50)
+    t.right (90)
+    t.fd (300)
+    t.right (90)
+    t.fd (90)
+    t.right (90)
+    t.fd (90)
+    t.right (90)
+    t.fd (90)
+    t.right (180)
+    t.fd (45)
+    t.left (90)
+    t.fd (90)
+    t.right (90)
+    t.fd(45)
+    t.right (90)
+    t.fd(300)
+   
+
+ret (50)
+
+
